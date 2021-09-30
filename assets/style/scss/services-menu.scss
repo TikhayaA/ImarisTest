@@ -86,7 +86,9 @@
             .services-menu_submenu {
                 display: block;
                 opacity: 1;
-                border-radius: 8px;
+                @media all and (max-width: 1200px) {
+                    border-radius: 8px;
+                }
             }
         }
     }
