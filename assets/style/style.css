@@ -44,13 +44,13 @@ body {
   -webkit-box-shadow: 0px 5px 10px -2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 5px 10px -2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 5px 10px -2px rgba(34, 60, 80, 0.2); }
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 1200px) {
     .services-menu {
       width: 90%; } }
   @media all and (max-width: 500px) {
     .services-menu {
       width: 100%; } }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .services-menu:hover {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; } }
@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     position: relative;
     z-index: 1; }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .services-menu_list-item {
       height: 88px; } }
   .services-menu_list-item:hover {
@@ -68,7 +68,7 @@ body {
     background: #FF5C39;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1200px) {
       .services-menu_list-item:hover {
         width: 100%;
         margin-left: 0;
@@ -82,17 +82,17 @@ body {
       color: #FFFFFF;
       height: 88px;
       box-sizing: border-box; }
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 1200px) {
         .services-menu_list-item:hover .services-menu_link {
           height: auto; } }
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 1200px) {
         .services-menu_list-item:hover .services-menu_link svg:last-child {
           margin-right: 12px; } }
     .services-menu_list-item:hover .services-menu_logo-list path {
       fill: #FFFFFF; }
     .services-menu_list-item:hover .services-menu_arrow-list path {
       stroke: white; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1200px) {
       .services-menu_list-item:hover .services-menu_arrow-list {
         transform: rotate(90deg);
         -webkit-transform: rotate(-90deg);
@@ -114,7 +114,7 @@ body {
     position: relative;
     z-index: 12;
     font-weight: bold; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1200px) {
       .services-menu_link {
         font-size: 14px;
         padding: 8px 24px 8px 24px; } }
@@ -151,7 +151,7 @@ body {
     -moz-transition: all 2s;
     -ms-transition: all 2s;
     -o-transition: all 2s; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1200px) {
       .services-menu_submenu {
         position: static;
         box-shadow: unset;
@@ -170,7 +170,7 @@ body {
       color: #3B3B46;
       text-decoration: none;
       position: relative; }
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 1200px) {
         .services-menu_submenu ul li a {
           font-size: 14px;
           line-height: 20px; } }
@@ -203,17 +203,17 @@ body {
       right: 20px;
       display: flex;
       align-items: center; }
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 1200px) {
         .services-menu_submenu-arrow a {
           display: flex; } }
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 1200px) {
         .services-menu_submenu-arrow {
           position: static;
           margin-top: 10px;
           justify-content: flex-end; } }
       .services-menu_submenu-arrow svg {
         margin-left: 10px; }
-        @media all and (max-width: 768px) {
+        @media all and (max-width: 1200px) {
           .services-menu_submenu-arrow svg {
             width: 28px; } }
       .services-menu_submenu-arrow a {
@@ -223,7 +223,7 @@ body {
         line-height: 120%;
         color: #FF5C39;
         text-decoration: none; }
-        @media all and (max-width: 768px) {
+        @media all and (max-width: 1200px) {
           .services-menu_submenu-arrow a {
             font-size: 14px; } }
 
